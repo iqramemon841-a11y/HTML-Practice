@@ -1,0 +1,30 @@
+<form action="submit.php">
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name">
+    <br>
+    <label for="male"> Sex:
+    <input type="radio" id="male" name="sex" value="Male">Male
+    </label>
+    
+    <label for="female"> 
+    <input type="radio" id="female" name="sex" value="Female">Female
+    </label>
+    <br>
+    <label for="country">Country:</label>
+    <select id="country" name="country">
+        <option value="" disabled selected>Select your country</option>
+        <OPTION value="India">India</OPTION>
+        <OPTION value="Nepal">Nepal</OPTION>
+        <OPTION value="USA">USA</OPTION>
+        <OPTION value="Canada">Canada</OPTION>
+    </select>
+    <br>
+<label for="message">Message:</label>
+<br>
+<textarea name="message" id="message" rows="5" cols="30"></textarea>
+
+<br>
+<input type="checkbox" id="subscribe" name="subscirbe"><label for="subscribe">Subscribe?</label>
+<br>
+<button>submit</button>
+</form>
